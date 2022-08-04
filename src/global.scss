@@ -43,9 +43,6 @@ img {
     .left-header {
         display: flex;
         align-items: center;
-        .rilogo{
-            height: 30px;
-        }
         .back-btn {
             position: relative;
             left: 0;
@@ -61,7 +58,13 @@ img {
     }
 }
 
-
+.center-header{
+    display: flex;
+    align-items: center;
+.rilogo{
+    height: 30px;
+}
+}
 .ion-padding{
     width: 100%;
     height: 100%;

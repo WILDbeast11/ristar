@@ -1,8 +1,10 @@
 <div class="header">
     <div class="left-header">
-        <img src="assets/main_logo.png" alt="main-logo" class="rilogo">
         <ng-content select=".back-btn"></ng-content>
         <ng-content select=".title"></ng-content>
+    </div>
+    <div class="center-header">
+        <img src="assets/main_logo.png" alt="main-logo" class="rilogo">
     </div>
     <div class="right-header">
         <a class="humburger" (click)="openFirst()">
